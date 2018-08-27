@@ -4,9 +4,9 @@
 \alias{getEnhancerUnitPvalue}
 \title{Run CNCDriver lincRNA p-value calculation}
 \usage{
-getEnhancerUnitPvalue(inputDir, tumorType, mutationType, reSampleIter = 1000,
-  seedNum = 42, enhancerGeneInteractionFileName, useCores,
-  debugMode = FALSE)
+getEnhancerUnitPvalue(inputDir, tumorType, mutationType,
+  reSampleIter = 1000, seedNum = 42, enhancerGeneInteractionFileName,
+  useCores, debugMode = FALSE)
 }
 \arguments{
 \item{inputDir}{Where is annotated funseq2 result}
@@ -45,6 +45,4 @@ rareMutationFreq<-0.02
 #           keepIsolatedNodes,verbose=TRUE)
 
 }
-\concept{
-CNCDriver
-}
+\concept{CNCDriver}

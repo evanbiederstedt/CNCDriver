@@ -6,8 +6,8 @@
 \title{calculate Pvalue With Mut CategoryDistribution Matched}
 \usage{
 calculatePvalueWithMutCategoryDistributionMatched7(variantTriMutCategory,
-  backgroundPosVariant, mutationDistMatrix, featureDF, reSampleNum, replaceFlag,
-  fileName, debugMode = FALSE)
+  backgroundPosVariant, mutationDistMatrix, featureDF, reSampleNum,
+  replaceFlag, fileName, debugMode = FALSE)
 }
 \arguments{
 \item{variantTriMutCategory}{geneDFunique data frame}
@@ -50,6 +50,4 @@ rareMutationFreq<-0.02
 #           keepIsolatedNodes,verbose=TRUE)
 
 }
-\concept{
-CNCDriver
-}
+\concept{CNCDriver}
